@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #1e90ff;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+section {
+    padding: 2rem;
+}
+form input, form textarea {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+button {
+    padding: 0.5rem 1rem;
+    background: #1e90ff;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+@media(max-width: 600px) {
+    header, section {
+        padding: 1rem;
+    }
+}
